@@ -41,6 +41,8 @@ Calculations for average, median, max, and min were performed to analyze the dat
 
 Through our analysis we examined the hypotheses and created graphs to help us interpret the data. We cound that having a higher average level of snowpack over the winter had a statistically significant correlated with a reduced frequency of wildfires in the following summer. In addition we also found an inverse effect between the ammount of snowpack and the number of acres burned in the following summer, higher snowpack seemed to lead to more acres burned. However these findings were not statistically signinficant. Our analysis also showed that in years with higher snowpack, forest fires had shorter durations.
 
+Further details of our analysis can be found in our google slides presentation: https://docs.google.com/presentation/d/1KDKdwDSVYIK-MHqCqFfhZmxBYS87GnyUiEdqaOnU4bM/edit#slide=id.p
+
 ### Conclusion
 
 Snowpack measures directly impact the effects of the following and corresponding fire seasons. The correlations were generally not strong but the null hypothesis could not be proven.
