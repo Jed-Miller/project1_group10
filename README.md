@@ -15,19 +15,15 @@ An analysis on the effect of winter snowpack on the severity of wildfires in the
 | CDEC California Department of Water Resources         | JSON | API that provides daily snowpack data for a ten year period                                                                                                                                                                                                                | https://cdec.water.ca.gov/dynamicapp/wsSensorData |
 | California Department of Forestry and Fire Prevention | CSV  | "Incident data is provided in raw, computer readable formats and requires further processing using specialized software. Two additional API parameters include year (values include a year in the YYYY format) and inactive (values include true and false)." Per website. | https://www.fire.ca.gov/incidents/                |
 
-### Introduction
-
-Put intro here
-
 ### Hypothesis
 
-H `<sub>`0 `</sub>`: Snowpack depth in the central Sierras has no effect on wildfire severity: number of fires, acreage burned, or duration of burns in the outlying counties.
+H <sub>0</sub>: Snowpack depth in the central Sierras has no effect on wildfire severity: number of fires, acreage burned, or duration of burns in the outlying counties.
 
-H`<sub>`a1`</sub>`: Increased snowpack depth in the central Sierras will decrease the number of fires in the outlying counties in the corresponding fire season.
+H <sub>a1</sub>: Increased snowpack depth in the central Sierras will decrease the number of fires in the outlying counties in the corresponding fire season.
 
-H`<sub>`a2`</sub>`: Increased snowpack depth in the central Sierras will decrease the amount of acres burned in the outlying counties in the corresponding fire season.
+H <sub>a2</sub>: Increased snowpack depth in the central Sierras will decrease the amount of acres burned in the outlying counties in the corresponding fire season.
 
-H`<sub>`a3`</sub>`: Increased snowpack depth in the central Sierras will decrease the duration of wildfire burn in the outlying counties in the corresponding fire season.
+H <sub>a3</sub>: Increased snowpack depth in the central Sierras will decrease the duration of wildfire burn in the outlying counties in the corresponding fire season.
 
 ### Data
 
@@ -48,4 +44,3 @@ Further details of our analysis can be found in our google slides presentation: 
 Snowpack measures directly impact the effects of the following and corresponding fire seasons. The correlations were generally not strong but the null hypothesis could not be proven.
 
 Snowpack measures directly correlated with severity of fires in the following season, likely because of a growth of vegetation from the large snowpack from the previous year.
-
