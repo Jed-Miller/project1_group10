@@ -1,4 +1,4 @@
-# The Effect of Snowpack in the Central Sierras  Counties on Wildfire Severity in Outlying Counties
+# The Effect of Snowpack in the Central Sierras on Wildfire Severity in Outlying Counties
 
 A project for UCB Extension, written and analyzed by:
 
