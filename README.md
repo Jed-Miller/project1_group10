@@ -17,13 +17,17 @@ An analysis on the effect of winter snowpack on the severity of wildfires in the
 
 ### Hypothesis
 
-H <sub>0</sub>: Snowpack depth in the central Sierras has no effect on wildfire severity: number of fires, acreage burned, or duration of burns in the outlying counties.
+H<sub>0</sub>: Snowpack depth in the central Sierras has no effect on wildfire severity: number of fires, acreage burned, or duration of burns in the outlying counties.
 
-H <sub>a1</sub>: Increased snowpack depth in the central Sierras will decrease the number of fires in the outlying counties in the corresponding fire season.
+H<sub>a1</sub>: Increased snowpack depth in the central Sierras will decrease the number of fires in the outlying counties in the corresponding fire season.
 
-H <sub>a2</sub>: Increased snowpack depth in the central Sierras will decrease the amount of acres burned in the outlying counties in the corresponding fire season.
+H<sub>a2</sub>: Increased snowpack depth in the central Sierras will decrease the amount of acres burned in the outlying counties in the corresponding fire season.
 
-H <sub>a3</sub>: Increased snowpack depth in the central Sierras will decrease the duration of wildfire burn in the outlying counties in the corresponding fire season.
+H<sub>a3</sub>: Increased snowpack depth in the central Sierras will decrease the duration of wildfire burn in the outlying counties in the corresponding fire season.
+
+---
+
+
 
 ### Data
 
@@ -32,6 +36,16 @@ We used the data provided by the California State government for our analysis. T
 The data we imported was from the previous 10 years. We examined and cleaned the data sets separately. This was due to the winter season spanning two years for any fire season following after. We had to arrange this snowpack data to include the data from the year previous to the fire season. Once the winter months were organized we were able to structure our data with a column for Winter 12/13 and Fire Season 2013.
 
 Calculations for average, median, max, and min were performed to analyze the datasets further and graphs were created to show our findings.
+
+Wildfire data cleaned in fire_data_cleanup.ipynb and exported in the data folder as: yearly_fire_data.csv, county_fire_data.csv, and duration_fire_data.csv
+
+Snow depth data cleaned in snow_data_cleanup.ipynb and exported in the data folder as: snow_data.csv
+
+The data was merged in data_merge.ipynb and exported as full_yearly.csv. full_county.csv, full_duration.csv
+
+---
+
+
 
 ### Analysis
 
@@ -60,7 +74,7 @@ Calculations for average, median, max, and min were performed to analyze the dat
 
 ### Avg. Fire Duration by County Analysis
 
-![Annual Fires in Central Sierras](./figures/avg_fire_duration_county.png "Line Avg. Fire Duration (Corresponding)")
+![Annual Fires in Central Sierras](./figures/avg_Fire_Duration_county.png "Line Avg. Fire Duration (Corresponding)")
 
 ![Annual Fires in Central Sierras](./figures/2015_corresponding_bargraph.png "Bar Avg. Fire Duration 2015 (Corresponding)")
 
@@ -73,6 +87,18 @@ Calculations for average, median, max, and min were performed to analyze the dat
 Through our analysis we examined the hypotheses and created graphs to help us interpret the data. We found that having a higher average level of snowpack over the winter had a statistically significant correlation with a reduced frequency of wildfires in the following summer. In addition, we also found an inverse effect between the ammount of snowpack and the number of acres burned in the following summer; higher snowpack seemed to lead to more acres burned. However these findings were not statistically signinficant. Our analysis also showed that in years with higher snowpack, forest fires had shorter durations.
 
 Further details of our analysis can be found in our google slides presentation: https://docs.google.com/presentation/d/1KDKdwDSVYIK-MHqCqFfhZmxBYS87GnyUiEdqaOnU4bM/edit#slide=id.p
+
+Wildfire severity data analysis occured in AcreageVisualization.ipynb
+
+Wildfire duration data analysis occured in count_fire_duration.ipynb and high_low_bargraph.ipynb
+
+Wildfire count data analysis occured in fire_snow_linear_visual.ipynb
+
+All figures created exported to figures file as .png
+
+---
+
+
 
 ### Conclusion
 
