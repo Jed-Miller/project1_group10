@@ -60,7 +60,7 @@ Calculations for average, median, max, and min were performed to analyze the dat
 
 ### Avg. Fire Duration by County Analysis
 
-![Annual Fires in Central Sierras](./figures/avg_Fire_duration_county.png "Line Avg. Fire Duration (Corresponding)")
+![Annual Fires in Central Sierras](./figures/avg_fire_duration_county.png "Line Avg. Fire Duration (Corresponding)")
 
 ![Annual Fires in Central Sierras](./figures/2015_corresponding_bargraph.png "Bar Avg. Fire Duration 2015 (Corresponding)")
 
