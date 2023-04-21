@@ -50,7 +50,25 @@ Calculations for average, median, max, and min were performed to analyze the dat
 
 ### Avg. Acres Burned Analysis
 
+![Annual Fires in Central Sierras](./figures/current_year_acres_burned.png "Avg. Acres Burned (Corresponding)")
 
+![Annual Fires in Central Sierras](./figures/scatter_mean_depth_mean_acres.png "Scatter  Avg.Acres Burned (Corresponding)")
+
+![Annual Fires in Central Sierras](./figures/following_year_acres_burned.png "Avg. Acres Burned (Following)")
+
+![Annual Fires in Central Sierras](./figures/scatter_following_mean_depth_mean_acres.png "Scatter Avg. Acres Burned (Following)")
+
+### Avg. Fire Duration by County Analysis
+
+![Annual Fires in Central Sierras](./figures/avg_fire_duration_county.png "Line Avg. Fire Duration (Corresponding)")
+
+![Annual Fires in Central Sierras](./figures/2015_corresponding_bargraph.png "Bar Avg. Fire Duration 2015 (Corresponding)")
+
+![Annual Fires in Central Sierras](./figures/2019_corresponding_bargraph.png "Bar Avg. Fire Duration 2019 (Corresponding)")
+
+![Annual Fires in Central Sierras](./figures/2015_following_bargraph.png "Bar Avg. Fire Duration 2015 (Following-2016)")
+
+![Annual Fires in Central Sierras](./figures/2019_following_bargraph.png "Bar Avg. Fire Duration 2019 (Following-2020)")
 
 Through our analysis we examined the hypotheses and created graphs to help us interpret the data. We found that having a higher average level of snowpack over the winter had a statistically significant correlation with a reduced frequency of wildfires in the following summer. In addition, we also found an inverse effect between the ammount of snowpack and the number of acres burned in the following summer; higher snowpack seemed to lead to more acres burned. However these findings were not statistically signinficant. Our analysis also showed that in years with higher snowpack, forest fires had shorter durations.
 
