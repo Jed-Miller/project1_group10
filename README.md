@@ -17,13 +17,13 @@ An analysis on the effect of winter snowpack on the severity of wildfires in the
 
 ### Hypothesis
 
-H `<sub>`0`</sub>`: Snowpack depth in the central Sierras has no effect on wildfire severity: number of fires, acreage burned, or duration of burns in the outlying counties.
+H<sub>0</sub>: Snowpack depth in the central Sierras has no effect on wildfire severity: number of fires, acreage burned, or duration of burns in the outlying counties.
 
-H `<sub>`a1`</sub>`: Increased snowpack depth in the central Sierras will decrease the number of fires in the outlying counties in the corresponding fire season.
+H<sub>a1</sub>: Increased snowpack depth in the central Sierras will decrease the number of fires in the outlying counties in the corresponding fire season.
 
-H `<sub>`a2`</sub>`: Increased snowpack depth in the central Sierras will decrease the amount of acres burned in the outlying counties in the corresponding fire season.
+H<sub>a2</sub>: Increased snowpack depth in the central Sierras will decrease the amount of acres burned in the outlying counties in the corresponding fire season.
 
-H `<sub>`a3`</sub>`: Increased snowpack depth in the central Sierras will decrease the duration of wildfire burn in the outlying counties in the corresponding fire season.
+H<sub>a3</sub>: Increased snowpack depth in the central Sierras will decrease the duration of wildfire burn in the outlying counties in the corresponding fire season.
 
 ---
 
