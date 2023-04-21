@@ -27,7 +27,7 @@ H <sub>a3</sub>: Increased snowpack depth in the central Sierras will decrease t
 
 ### Data
 
-We used the data provided by the California State government for our analysis. The snowpack data was sourced through an API from the California department of Water Resources. Our fire data was a CSV provided by the California Department of Forestry and Fire Protection. Each dataset was check for data authentication before being imported to pandas
+We used the data provided by the California State government for our analysis. The snowpack data was sourced through an API from the California department of Water Resources. Our fire data was a CSV provided by the California Department of Forestry and Fire Protection. Each dataset was checked for data authentication before being imported to pandas
 
 The data we imported was from the previous 10 years. We examined and cleaned the data sets separately. This was due to the winter season spanning two years for any fire season following after. We had to arrange this snowpack data to include the data from the year previous to the fire season. Once the winter months were organized we were able to structure our data with a column for Winter 12/13 and Fire Season 2013.
 
@@ -35,7 +35,7 @@ Calculations for average, median, max, and min were performed to analyze the dat
 
 ### Analysis
 
-Through our analysis we examined the hypotheses and created graphs to help us interpret the data. We cound that having a higher average level of snowpack over the winter had a statistically significant correlated with a reduced frequency of wildfires in the following summer. In addition we also found an inverse effect between the ammount of snowpack and the number of acres burned in the following summer, higher snowpack seemed to lead to more acres burned. However these findings were not statistically signinficant. Our analysis also showed that in years with higher snowpack, forest fires had shorter durations.
+Through our analysis we examined the hypotheses and created graphs to help us interpret the data. We found that having a higher average level of snowpack over the winter had a statistically significant correlation with a reduced frequency of wildfires in the following summer. In addition, we also found an inverse effect between the ammount of snowpack and the number of acres burned in the following summer; higher snowpack seemed to lead to more acres burned. However these findings were not statistically signinficant. Our analysis also showed that in years with higher snowpack, forest fires had shorter durations.
 
 Further details of our analysis can be found in our google slides presentation: https://docs.google.com/presentation/d/1KDKdwDSVYIK-MHqCqFfhZmxBYS87GnyUiEdqaOnU4bM/edit#slide=id.p
 
