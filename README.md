@@ -74,7 +74,7 @@ The data was merged in data_merge.ipynb and exported as full_yearly.csv. full_co
 
 ### Avg. Fire Duration by County Analysis
 
-![Annual Fires in Central Sierras](./figures/avg_fire_duration_county.png "Line Avg. Fire Duration (Corresponding)")
+![Annual Fires in Central Sierras](./figures/avg_Fire_Duration_county.png "Line Avg. Fire Duration (Corresponding)")
 
 ![Annual Fires in Central Sierras](./figures/2015_corresponding_bargraph.png "Bar Avg. Fire Duration 2015 (Corresponding)")
 
