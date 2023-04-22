@@ -74,7 +74,12 @@ The data was merged in data_merge.ipynb and exported as full_yearly.csv. full_co
 
 ### Avg. Fire Duration by County Analysis
 
+We chose to look at the avg. fire duration length (days) at the county level. By looking at data the county level, we can isolate the impact of fire, and the resulting smoke, within separate communities instead of just at a regional level. Additionally, these results can help inform fire districts to the amount of resources they need to commit to different counties, for if there are counties that significantly higher averages, CAL Fire would know they need to staff those fire houses within additional staff and equipment.
+
+One issue with this graph, though, is that the data for extinguishment dates for 2017 and 2018 were inaccurately inputted and forced us to filter out this data. Since this was the case, we ultimately decided to focus our analysis on the year that had the minimum snowpack level (2015) and the year with the maximum snowpack level (2019).
 ![Annual Fires in Central Sierras](./figures/avg_Fire_Duration_county.png "Line Avg. Fire Duration (Corresponding)")
+
+When evaluating the data for the avg. fire duration for our min and max snowpack years, we can see that the majority of the central Sierra counties had higher avg. fire durations after a low snowpack year vs. a high snowpack year. Our speculation is that the higher snowpack
 
 ![Annual Fires in Central Sierras](./figures/2015_corresponding_bargraph.png "Bar Avg. Fire Duration 2015 (Corresponding)")
 
