@@ -45,29 +45,30 @@ The data was merged in data_merge.ipynb and exported as full_yearly.csv. full_co
 
 ---
 
-
-
-### Analysis
+## Analysis
 
 ### Annual Fire Analysis
 
-
+#### Corresponding Year
 ![Annual Fires in Central Sierras](./figures/annual_depth_fire_count_line.png "Annual Fire Line (Corresponding)")
 
 ![Annual Fires in Central Sierras](./figures/bar1.png "Annual Fire Bar (Corresponding)")
 
 ![Annual Fires in Central Sierras](./figures/scatter1.png "Annual Fire Scatter (Corresponding)")
 
+#### Following Year
 ![Annual Fires in Central Sierras](./figures/scatter2.png "Annual Fire Bar (Following)")
 
 ![Annual Fires in Central Sierras](./figures/bar2.png "Annual Fire Scatter (Following)")
 
 ### Avg. Acres Burned Analysis
 
+#### Corresponding Year
 ![Annual Fires in Central Sierras](./figures/current_year_acres_burned.png "Avg. Acres Burned (Corresponding)")
 
 ![Annual Fires in Central Sierras](./figures/scatter_mean_depth_mean_acres.png "Scatter  Avg.Acres Burned (Corresponding)")
 
+#### Following Year
 ![Annual Fires in Central Sierras](./figures/following_year_acres_burned.png "Avg. Acres Burned (Following)")
 
 ![Annual Fires in Central Sierras](./figures/scatter_following_mean_depth_mean_acres.png "Scatter Avg. Acres Burned (Following)")
@@ -79,17 +80,19 @@ We chose to look at the avg. fire duration length (days) at the county level. By
 One issue with this graph, though, is that the data for extinguishment dates for 2017 and 2018 were inaccurately inputted and forced us to filter out this data. Since this was the case, we ultimately decided to focus our analysis on the year that had the minimum snowpack level (2015) and the year with the maximum snowpack level (2019).
 ![Annual Fires in Central Sierras](./figures/avg_Fire_Duration_county.png "Line Avg. Fire Duration (Corresponding)")
 
-When evaluating the data for the avg. fire duration for our min and max snowpack years, we can see that the majority of the central Sierra counties had higher avg. fire durations after a low snowpack year vs. a high snowpack year. Our speculation is that the higher snowpack
+#### Corresponding Year
+When evaluating the data for the avg. fire duration for our min and max snowpack years, we can see that the majority of the central Sierra counties (6 of 9) had higher avg. fire durations after a low snowpack year vs. a high snowpack year. Our speculation is that the higher snowpack suppresses the duration of the fires because it creates an environment with lower ground temperatures and vegetation with higher water content. The inverse is true when the snowpack level is low, allowing the ground to heat up and the vegetation to become drier and more susceptible to burning.
 
 ![Annual Fires in Central Sierras](./figures/2015_corresponding_bargraph.png "Bar Avg. Fire Duration 2015 (Corresponding)")
 
 ![Annual Fires in Central Sierras](./figures/2019_corresponding_bargraph.png "Bar Avg. Fire Duration 2019 (Corresponding)")
 
+#### Following Year
 ![Annual Fires in Central Sierras](./figures/2015_following_bargraph.png "Bar Avg. Fire Duration 2015 (Following-2016)")
 
 ![Annual Fires in Central Sierras](./figures/2019_following_bargraph.png "Bar Avg. Fire Duration 2019 (Following-2020)")
 
-Through our analysis we examined the hypotheses and created graphs to help us interpret the data. We found that having a higher average level of snowpack over the winter had a statistically significant correlation with a reduced frequency of wildfires in the following summer. In addition, we also found an inverse effect between the ammount of snowpack and the number of acres burned in the following summer; higher snowpack seemed to lead to more acres burned. However these findings were not statistically signinficant. Our analysis also showed that in years with higher snowpack, forest fires had shorter durations.
+
 
 Further details of our analysis can be found in our google slides presentation: https://docs.google.com/presentation/d/1KDKdwDSVYIK-MHqCqFfhZmxBYS87GnyUiEdqaOnU4bM/edit#slide=id.p
 
